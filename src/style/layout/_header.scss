@@ -1,0 +1,28 @@
+#main-header {  
+
+    img {
+        width: 100%;
+        height: 100%
+    }
+
+    .panel-heading {
+        font-size: 1.2rem;
+    }
+    .port-item {
+        width: 30%;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    
+        @media (min-width: 1199px) {
+            padding: 3rem !important;
+          }
+      }
+  }
+
+
+  
+
+  
