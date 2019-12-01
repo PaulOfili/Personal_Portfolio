@@ -20,17 +20,17 @@ function App() {
                     <i className="fab fa-twitter social-icons"></i>
                   </a>
                 </div>
-                <div>
+                <div className="d-none d-md-block">
                   <a href="http://facebook.com" className="text-white">
                     <i className="fab fa-facebook social-icons"></i>
                   </a>
                 </div>
-                <div>
+                <div className="d-none d-md-block">
                   <a href="http://instagram.com" className="text-white">
                     <i className="fab fa-instagram social-icons"></i>
                   </a>
                 </div>
-                <div>
+                <div className="d-none d-md-block">
                   <a href="http://github.com" className="text-white">
                     <i className="fab fa-github social-icons"></i>
                   </a>
