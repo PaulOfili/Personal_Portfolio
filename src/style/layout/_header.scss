@@ -9,14 +9,31 @@
         #catchy-header-text {
             position: relative;
             top: 40%;
+
+            @media only screen and (max-width: 768px) {
+                /* For mobile phones: */
+                  font-size: 5rem;
+              }
+
         }
     }
 
+    .profile-name {
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+              font-size: 3rem;
+          }
+    } 
     .panel-heading {
         padding: 4rem;
 
-        @media (max-width: 1200px) {
-            font-size: 2rem;
+        @media only screen and (max-width: 1200px) {
+            font-size: 1.5rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+              padding: 2rem;
           }
     }
     .port-item {

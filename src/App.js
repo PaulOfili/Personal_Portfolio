@@ -14,7 +14,7 @@ function App() {
           <div className="d-flex flex-column">
             <div className="p-5 bg-dark text-white">
               <div className="d-flex flex-row justify-content-between align-items-center">
-                <h1 className="display-3">Paul Ofili</h1>
+                <h1 className="display-3 profile-name">Paul Ofili</h1>
                 <div className="d-none d-md-block">
                   <a href="http://twitter.com" className="text-white">
                     <i className="fab fa-twitter social-icons"></i>
@@ -40,7 +40,7 @@ function App() {
 
             <div className="bg-black panel-heading display-3">
               <TypewriterComponent 
-                text={["Web Developer", "Budding Data scientist" , "Algorithms Enthusiast."]} 
+                text={["Web Developer", "Budding Data Scientist" , "Algorithms Enthusiast."]} 
                 speed={200}
               />              
             </div>
