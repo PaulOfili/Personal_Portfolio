@@ -1,12 +1,23 @@
 #main-header {  
-
-    img {
-        width: 100%;
-        height: 100%
+    
+    #catchy-header-background{
+        text-align: center;
+        position: relative;
+        background: url('../../assets/img/header-background.jpg');
+        background-size: cover;
+        min-height: 25rem;
+        #catchy-header-text {
+            position: relative;
+            top: 40%;
+        }
     }
 
     .panel-heading {
         padding: 4rem;
+
+        @media (max-width: 1200px) {
+            font-size: 2rem;
+          }
     }
     .port-item {
         width: 30%;

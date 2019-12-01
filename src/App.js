@@ -7,10 +7,10 @@ function App() {
     <div className="containe">
     <header id="main-header">
       <div className="row no-gutters">
-        <div className="col-lg-4 col-md-5">
-          <img src={PaulPic} alt=""/>
+        <div id="catchy-header-background" className="col-lg-5 text-white">
+          <h1 id="catchy-header-text" className="display-1">Hi There</h1>
         </div>
-        <div className="col-lg-8 col-md-7">
+        <div className="col-lg-7">
           <div className="d-flex flex-column">
             <div className="p-5 bg-dark text-white">
               <div className="d-flex flex-row justify-content-between align-items-center">
@@ -40,14 +40,14 @@ function App() {
 
             <div className="bg-black panel-heading display-3">
               <TypewriterComponent 
-                text={["Full Stack Web Developer", "Budding Data scientist" , "Algorithms Enthusiast."]} 
+                text={["Web Developer", "Budding Data scientist" , "Algorithms Enthusiast."]} 
                 speed={200}
               />              
             </div>
 
             <div>
               <div className="d-flex flex-row text-white align-items-stretch text-center">
-                <div className="port-item bg-primary" data-toggle="collapse" data-target="#home">
+                <div className="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
                   <i className="fas fa-home fa-2x d-block"></i>
                   <span className="d-none d-sm-block">Home</span>
                 </div>
