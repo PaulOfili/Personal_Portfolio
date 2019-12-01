@@ -6,10 +6,10 @@ function App() {
     <div className="container">
     <header id="main-header">
       <div className="row no-gutters">
-        <div className="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-5">
           <img src={PaulPic} alt=""/>
         </div>
-        <div className="col-lg-8 col-md-6">
+        <div className="col-lg-8 col-md-7">
           <div className="d-flex flex-column">
             <div className="p-5 bg-dark text-white">
               <div className="d-flex flex-row justify-content-between align-items-center">
